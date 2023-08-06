@@ -5,12 +5,12 @@
 
 body,
 body > div {
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 
 #container {
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -22,6 +22,18 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  background-color: #B9E6FF;
+}
+
+#footer {
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+#footer, #navbar {
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 #main-section {
@@ -36,12 +48,22 @@ body > div {
 }
 
 .red {
-  background-color: #b05f6d;
+  background-color: #d60024;
   color: white;
 }
 
 .blue {
-  background-color: #275db3;
+  background-color: #0046b8;
+  color: white;
+}
+
+.silver {
+  background-color: #C0C0C0;
+  color: white;
+}
+
+.gold {
+  background-color: #ffd700;
   color: white;
 }
 
