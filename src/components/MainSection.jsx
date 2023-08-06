@@ -9,11 +9,11 @@ export default function MainSection() {
     return (
         <div id="main-section">
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path="/blue" element={<Blue />} />
-            <Route path="/red" element={<Red />} />
-            <Route path="/silver" element={<Silver />} />
-            <Route path="/gold" element={<Gold />} />
+            <Route path='/react-router' element={<Home />} />
+            <Route path="/react-router/blue" element={<Blue />} />
+            <Route path="/react-router/red" element={<Red />} />
+            <Route path="/react-router/silver" element={<Silver />} />
+            <Route path="/react-router/gold" element={<Gold />} />
           </Routes>
         </div>
     )
